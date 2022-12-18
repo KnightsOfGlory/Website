@@ -89,7 +89,7 @@ function Presentation() {
               mt={1}
             >
                 <span style={{textShadow: "2px 2px 4px #555"}}>
-                  One of the world's oldest and most distinguished Battle.net clans, now rebooted on warnet.
+                  Rebooted once again for warnet.
                   &nbsp;Join us today!
                 </span>
                 {/*<span style={{textShadow: "-1px 1px 0 #222, 1px 1px 0 #222, 1px -1px 0 #222, -1px -1px 0 #222"}}>*/}

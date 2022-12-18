@@ -47,7 +47,7 @@ function Information() {
                     What We Do
                   </>
                 }
-                description={<div><br /></div>}
+                description={<div><br /><br /></div>}
               />
               <RotatingCardBack
                 image={bgBack}
@@ -86,7 +86,7 @@ function Information() {
                 <DefaultInfoCard
                   icon="local_fire_department"
                   title="Warring"
-                  description="Whether reconnecting, loading, or flooding, our warrers are raging"
+                  description="Whether reconnecting, loading, or flooding, our warrers are always raging"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
