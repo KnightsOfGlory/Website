@@ -47,7 +47,7 @@ function Information() {
                     What We Do
                   </>
                 }
-                description={<div><br /><br /><br /></div>}
+                description={<div><br /></div>}
               />
               <RotatingCardBack
                 image={bgBack}
@@ -77,7 +77,7 @@ function Information() {
                 <DefaultInfoCard
                   icon="code"
                   title="Development"
-                  description="The world's most popular react components library for building user interfaces."
+                  description="Bots, bots, bots, and more bots – chat or load, we do it all"
                 />
               </Grid>
             </Grid>
@@ -86,14 +86,14 @@ function Information() {
                 <DefaultInfoCard
                   icon="local_fire_department"
                   title="Warring"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  description="Whether reconnecting, loading, or flooding, our warrers are raging"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="chat"
                   title="Casual"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  description="Just want to hang out and talk?  We do that too!"
                 />
               </Grid>
             </Grid>

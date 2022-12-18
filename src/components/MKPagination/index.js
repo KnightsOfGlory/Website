@@ -29,8 +29,8 @@ const Context = createContext();
 
 const MKPagination = forwardRef(
   ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {
-    const context = item ? useContext(Context) : null;
-    const paginationSize = context ? context.size : null;
+    // const context = item ? useContext(Context) : null;
+    // const paginationSize = context ? context.size : null;
     let placementValue = "flex-end";
 
     if (placement === "left") {
@@ -45,11 +45,11 @@ const MKPagination = forwardRef(
           <MKPaginationItemRoot
             {...rest}
             ref={ref}
-            variant={active ? context.variant : "outlined"}
-            color={active ? context.color : "secondary"}
+            // variant={active ? context.variant : "outlined"}
+            // color={active ? context.color : "secondary"}
             iconOnly
             circular
-            ownerState={{ variant, active, paginationSize }}
+            // ownerState={{ variant, active, paginationSize }}
           >
             {children}
           </MKPaginationItemRoot>
